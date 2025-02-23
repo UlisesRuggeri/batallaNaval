@@ -16,6 +16,7 @@ td {
     transition: background-color 0.3s, opacity 0.3s; /* Transición suave */
   }
   
+  
   td:hover {
     
     opacity: 0.5; /* Hace la celda más transparente */

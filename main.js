@@ -229,7 +229,7 @@ tabla2.table.addEventListener("click", (event) => {
     celda.classList.add("fallo");
     tabla1.marcarAleatorio();
     tabla1.verificarBarcosGolpeados(); 
-  }
+  } 
 });
 
 tabla2.colocarLinea(5);
