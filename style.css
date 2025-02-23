@@ -1,0 +1,61 @@
+.tabla {
+  border-collapse: collapse;
+  margin: 20px;
+  float: left;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+td {
+    transition: background-color 0.3s, opacity 0.3s; /* Transición suave */
+  }
+  
+  td:hover {
+    
+    opacity: 0.5; /* Hace la celda más transparente */
+  }
+.golpeo {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.marcado {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.Rival {
+  background-color: red;
+}
+
+.fallo {
+  background-color: rgb(90, 160, 224);
+  color: white;
+  font-weight: bold;
+}
+
+.barcoAliado{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.aliadoGolpeado{
+    background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+#informacion{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
