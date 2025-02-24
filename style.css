@@ -13,13 +13,13 @@ td {
 }
 
 td {
-    transition: background-color 0.3s, opacity 0.3s; /* Transición suave */
+    transition: background-color 0.3s, opacity 0.3s;
   }
   
   
   td:hover {
     
-    opacity: 0.5; /* Hace la celda más transparente */
+    opacity: 0.5; 
   }
 .golpeo {
   background-color: red;
